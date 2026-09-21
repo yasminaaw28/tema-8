@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="snaps.png" alt="snaps" onclick="tjekDrik.call (this)">
+    <img src="fanta.png" alt="fanta" onclick="tjekDrik. call (this)">
+    <img src="cola.png" alt="cola" onclick="tjekDrik.call(this)">
+    <img src="øl.png" alt="øl" onclick="tjekDrik.call(this)">
+
+    <script>
+        function tjekDrik() {
+
+            if (this.alt === "snaps" || this.alt === "øl") {
+                console.log("indeholder alkohol");
+            } else {
+                console.log("alkoholfri");
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
